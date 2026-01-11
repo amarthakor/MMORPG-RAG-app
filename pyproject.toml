@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "rag_demo_project"
+version = "0.1.0"
+description = ""
+authors = ['amar']
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.14"
+openai = "1.79.0"
+psycopg2 = "2.9.10"
+python-dotenv = "1.1.0"
+arize-otel = "^0.10.0"
+openinference-instrumentation-openai = "^0.1.32"
+opentelemetry-exporter-otlp = "^1.37.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
